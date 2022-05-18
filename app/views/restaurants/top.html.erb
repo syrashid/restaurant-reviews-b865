@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= '⭐️' * 5 %> Top Restaurants</h1>
+
+<%= render 'list', restaurants: @top_restaurants %>
+
+<br>
+
+<%= link_to 'New Restaurant', new_restaurant_path %>
